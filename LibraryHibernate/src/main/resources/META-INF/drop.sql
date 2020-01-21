@@ -1,0 +1,12 @@
+delete from users;
+delete from authenticate;
+delete from book;
+delete from author;
+drop table users;
+drop table authenticate;
+drop table author_book;
+drop table author;
+drop table book;
+drop table message;
+drop table book_instance;
+drop table image;

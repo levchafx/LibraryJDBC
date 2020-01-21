@@ -1,0 +1,496 @@
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+delete from users [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHENTICATE" не найдена
+Table "AUTHENTICATE" not found; SQL statement:
+delete from authenticate [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BOOK" не найдена
+Table "BOOK" not found; SQL statement:
+delete from book [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHOR" не найдена
+Table "AUTHOR" not found; SQL statement:
+delete from author [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+drop table users [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHENTICATE" не найдена
+Table "AUTHENTICATE" not found; SQL statement:
+drop table authenticate [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHOR_BOOK" не найдена
+Table "AUTHOR_BOOK" not found; SQL statement:
+drop table author_book [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHOR" не найдена
+Table "AUTHOR" not found; SQL statement:
+drop table author [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BOOK" не найдена
+Table "BOOK" not found; SQL statement:
+drop table book [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGE" не найдена
+Table "MESSAGE" not found; SQL statement:
+drop table message [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BOOK_INSTANCE" не найдена
+Table "BOOK_INSTANCE" not found; SQL statement:
+drop table book_instance [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "IMAGE" не найдена
+Table "IMAGE" not found; SQL statement:
+drop table image [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS USERS ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS USERS ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS users ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "ID[*] INT NOT NULL AUTO_INCREMENT,"; ожидалось "INSERT"
+Syntax error in SQL statement "ID[*] INT NOT NULL AUTO_INCREMENT,"; expected "INSERT"; SQL statement:
+id int NOT NULL auto_increment, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "NAME[*] VARCHAR(255) NOT NULL DEFAULT '',"
+Syntax error in SQL statement "NAME[*] VARCHAR(255) NOT NULL DEFAULT '',"; SQL statement:
+name varchar(255) NOT NULL default '', [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SURNAME[*] VARCHAR(255) NOT NULL,"; ожидалось "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SURNAME[*] VARCHAR(255) NOT NULL,"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+surname varchar(255) NOT NULL, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "ROLE[*] VARCHAR(255) NOT NULL,"; ожидалось "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE"
+Syntax error in SQL statement "ROLE[*] VARCHAR(255) NOT NULL,"; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE"; SQL statement:
+role varchar(255) not null, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "EMAIL[*] VARCHAR(255) UNIQUE NOT NULL,"; ожидалось "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EMAIL[*] VARCHAR(255) UNIQUE NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+email varchar(255) unique NOT NULL, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "AGE[*] INT NOT NULL,"; ожидалось "ALTER, ANALYZE"
+Syntax error in SQL statement "AGE[*] INT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+age int NOT NULL, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY  (ID)"
+Syntax error in SQL statement "PRIMARY[*] KEY  (ID)"; SQL statement:
+PRIMARY KEY  (id) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS AUTHENTICATE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTHENTICATE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS authenticate ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "ID[*] INT NOT NULL AUTO_INCREMENT,"; ожидалось "INSERT"
+Syntax error in SQL statement "ID[*] INT NOT NULL AUTO_INCREMENT,"; expected "INSERT"; SQL statement:
+id int NOT NULL auto_increment, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "LOGIN[*] VARCHAR(45) UNIQUE NOT NULL  ,"
+Syntax error in SQL statement "LOGIN[*] VARCHAR(45) UNIQUE NOT NULL  ,"; SQL statement:
+login varchar(45) unique NOT NULL  , [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PASSWORD[*] VARCHAR(45) NOT NULL,"; ожидалось "PREPARE"
+Syntax error in SQL statement "PASSWORD[*] VARCHAR(45) NOT NULL,"; expected "PREPARE"; SQL statement:
+password varchar(45) NOT NULL, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PROFILE_ENABLE[*] BOOLEAN NOT NULL,"; ожидалось "PREPARE"
+Syntax error in SQL statement "PROFILE_ENABLE[*] BOOLEAN NOT NULL,"; expected "PREPARE"; SQL statement:
+profile_enable boolean NOT NULL, [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY  (ID)"
+Syntax error in SQL statement "PRIMARY[*] KEY  (ID)"; SQL statement:
+PRIMARY KEY  (id) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS IMAGE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS IMAGE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS image ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`NAME`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`NAME`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`name` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`IMAGE`[*] BLOB NOT NULL,"
+Syntax error in SQL statement "`IMAGE`[*] BLOB NOT NULL,"; SQL statement:
+`image` BLOB NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS MESSAGE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS MESSAGE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS message ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`USER_ID`[*] INT NOT NULL,"
+Syntax error in SQL statement "`USER_ID`[*] INT NOT NULL,"; SQL statement:
+`user_id` INT NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`MESSAGE`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`MESSAGE`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`message` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS BOOK_INSTANCE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS BOOK_INSTANCE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS book_instance ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`USER_ID`[*] INT NOT NULL,"
+Syntax error in SQL statement "`USER_ID`[*] INT NOT NULL,"; SQL statement:
+`user_id` INT NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`BOOK_ID`[*] INT NOT NULL,"
+Syntax error in SQL statement "`BOOK_ID`[*] INT NOT NULL,"; SQL statement:
+`book_id` INT NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`DUE_DATE`[*] DATE NOT NULL,"
+Syntax error in SQL statement "`DUE_DATE`[*] DATE NOT NULL,"; SQL statement:
+`due_date` DATE NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS AUTHOR_BOOK ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTHOR_BOOK ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS author_book ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`BOOK_ID`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`BOOK_ID`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`book_id` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`AUTHOR_ID`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`AUTHOR_ID`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`author_id` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS AUTHOR ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTHOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS author ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`NAME`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`NAME`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`name` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`SURNAME`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`SURNAME`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`surname` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS BOOK ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS BOOK ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS book ( [42001-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`TITLE`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`TITLE`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`title` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`QUANTITY`[*] INT NULL,"
+Syntax error in SQL statement "`QUANTITY`[*] INT NULL,"; SQL statement:
+`quantity` INT NULL, [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`)"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`)"; SQL statement:
+PRIMARY KEY (`id`) [42000-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (name,surname,email,role,age) values ('admin','admin','admin@mail.ru','ADMIN',55) [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHENTICATE" не найдена
+Table "AUTHENTICATE" not found; SQL statement:
+insert into authenticate (login,password,profile_enable) values ('admin','1234','true') [42102-200]
+2019-12-11 19:37:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select user0_.id as id1_7_0_, user0_.age as age2_7_0_, user0_.email as email3_7_0_, user0_.name as name4_7_0_, user0_.role as role5_7_0_, user0_.surname as surname6_7_0_, authentica1_.id as id1_0_1_, authentica1_.login as login2_0_1_, authentica1_.password as password3_0_1_, authentica1_.profileEnabled as profileE4_0_1_ from users user0_ left outer join Authenticate authentica1_ on user0_.id=authentica1_.id where user0_.id=? [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+delete from users [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHENTICATE" не найдена
+Table "AUTHENTICATE" not found; SQL statement:
+delete from authenticate [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BOOK" не найдена
+Table "BOOK" not found; SQL statement:
+delete from book [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHOR" не найдена
+Table "AUTHOR" not found; SQL statement:
+delete from author [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+drop table users [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHENTICATE" не найдена
+Table "AUTHENTICATE" not found; SQL statement:
+drop table authenticate [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHOR_BOOK" не найдена
+Table "AUTHOR_BOOK" not found; SQL statement:
+drop table author_book [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHOR" не найдена
+Table "AUTHOR" not found; SQL statement:
+drop table author [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BOOK" не найдена
+Table "BOOK" not found; SQL statement:
+drop table book [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "MESSAGE" не найдена
+Table "MESSAGE" not found; SQL statement:
+drop table message [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BOOK_INSTANCE" не найдена
+Table "BOOK_INSTANCE" not found; SQL statement:
+drop table book_instance [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "IMAGE" не найдена
+Table "IMAGE" not found; SQL statement:
+drop table image [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS USERS ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS USERS ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS users ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "ID[*] INT NOT NULL AUTO_INCREMENT,"; ожидалось "INSERT"
+Syntax error in SQL statement "ID[*] INT NOT NULL AUTO_INCREMENT,"; expected "INSERT"; SQL statement:
+id int NOT NULL auto_increment, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "NAME[*] VARCHAR(255) NOT NULL DEFAULT '',"
+Syntax error in SQL statement "NAME[*] VARCHAR(255) NOT NULL DEFAULT '',"; SQL statement:
+name varchar(255) NOT NULL default '', [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SURNAME[*] VARCHAR(255) NOT NULL,"; ожидалось "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"
+Syntax error in SQL statement "SURNAME[*] VARCHAR(255) NOT NULL,"; expected "SET, SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+surname varchar(255) NOT NULL, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "ROLE[*] VARCHAR(255) NOT NULL,"; ожидалось "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE"
+Syntax error in SQL statement "ROLE[*] VARCHAR(255) NOT NULL,"; expected "ROLLBACK, REVOKE, RUNSCRIPT, RELEASE"; SQL statement:
+role varchar(255) not null, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "EMAIL[*] VARCHAR(255) UNIQUE NOT NULL,"; ожидалось "EXPLAIN, EXECUTE"
+Syntax error in SQL statement "EMAIL[*] VARCHAR(255) UNIQUE NOT NULL,"; expected "EXPLAIN, EXECUTE"; SQL statement:
+email varchar(255) unique NOT NULL, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "AGE[*] INT NOT NULL,"; ожидалось "ALTER, ANALYZE"
+Syntax error in SQL statement "AGE[*] INT NOT NULL,"; expected "ALTER, ANALYZE"; SQL statement:
+age int NOT NULL, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY  (ID)"
+Syntax error in SQL statement "PRIMARY[*] KEY  (ID)"; SQL statement:
+PRIMARY KEY  (id) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS AUTHENTICATE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTHENTICATE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS authenticate ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "ID[*] INT NOT NULL AUTO_INCREMENT,"; ожидалось "INSERT"
+Syntax error in SQL statement "ID[*] INT NOT NULL AUTO_INCREMENT,"; expected "INSERT"; SQL statement:
+id int NOT NULL auto_increment, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "LOGIN[*] VARCHAR(45) UNIQUE NOT NULL  ,"
+Syntax error in SQL statement "LOGIN[*] VARCHAR(45) UNIQUE NOT NULL  ,"; SQL statement:
+login varchar(45) unique NOT NULL  , [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PASSWORD[*] VARCHAR(45) NOT NULL,"; ожидалось "PREPARE"
+Syntax error in SQL statement "PASSWORD[*] VARCHAR(45) NOT NULL,"; expected "PREPARE"; SQL statement:
+password varchar(45) NOT NULL, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PROFILE_ENABLE[*] BOOLEAN NOT NULL,"; ожидалось "PREPARE"
+Syntax error in SQL statement "PROFILE_ENABLE[*] BOOLEAN NOT NULL,"; expected "PREPARE"; SQL statement:
+profile_enable boolean NOT NULL, [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY  (ID)"
+Syntax error in SQL statement "PRIMARY[*] KEY  (ID)"; SQL statement:
+PRIMARY KEY  (id) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL ")[*]"
+Syntax error in SQL statement ")[*]"; SQL statement:
+) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS IMAGE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS IMAGE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS image ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`NAME`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`NAME`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`name` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`IMAGE`[*] BLOB NOT NULL,"
+Syntax error in SQL statement "`IMAGE`[*] BLOB NOT NULL,"; SQL statement:
+`image` BLOB NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS MESSAGE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS MESSAGE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS message ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`USER_ID`[*] INT NOT NULL,"
+Syntax error in SQL statement "`USER_ID`[*] INT NOT NULL,"; SQL statement:
+`user_id` INT NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`MESSAGE`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`MESSAGE`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`message` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS BOOK_INSTANCE ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS BOOK_INSTANCE ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS book_instance ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`USER_ID`[*] INT NOT NULL,"
+Syntax error in SQL statement "`USER_ID`[*] INT NOT NULL,"; SQL statement:
+`user_id` INT NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`BOOK_ID`[*] INT NOT NULL,"
+Syntax error in SQL statement "`BOOK_ID`[*] INT NOT NULL,"; SQL statement:
+`book_id` INT NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`DUE_DATE`[*] DATE NOT NULL,"
+Syntax error in SQL statement "`DUE_DATE`[*] DATE NOT NULL,"; SQL statement:
+`due_date` DATE NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS AUTHOR_BOOK ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTHOR_BOOK ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS author_book ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`BOOK_ID`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`BOOK_ID`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`book_id` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`AUTHOR_ID`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`AUTHOR_ID`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`author_id` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS AUTHOR ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS AUTHOR ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS author ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`NAME`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`NAME`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`name` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`SURNAME`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`SURNAME`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`surname` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`))"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`))"; SQL statement:
+PRIMARY KEY (`id`)) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "CREATE TABLE IF NOT EXISTS BOOK ([*]"; ожидалось "identifier"
+Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS BOOK ([*]"; expected "identifier"; SQL statement:
+CREATE TABLE IF NOT EXISTS book ( [42001-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`ID`[*] INT NOT NULL AUTO_INCREMENT,"
+Syntax error in SQL statement "`ID`[*] INT NOT NULL AUTO_INCREMENT,"; SQL statement:
+`id` INT NOT NULL AUTO_INCREMENT, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`TITLE`[*] VARCHAR(45) NOT NULL,"
+Syntax error in SQL statement "`TITLE`[*] VARCHAR(45) NOT NULL,"; SQL statement:
+`title` VARCHAR(45) NOT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "`QUANTITY`[*] INT NULL,"
+Syntax error in SQL statement "`QUANTITY`[*] INT NULL,"; SQL statement:
+`quantity` INT NULL, [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "PRIMARY[*] KEY (`ID`)"
+Syntax error in SQL statement "PRIMARY[*] KEY (`ID`)"; SQL statement:
+PRIMARY KEY (`id`) [42000-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+insert into users (name,surname,email,role,age) values ('admin','admin','admin@mail.ru','ADMIN',55) [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "AUTHENTICATE" не найдена
+Table "AUTHENTICATE" not found; SQL statement:
+insert into authenticate (login,password,profile_enable) values ('admin','1234','true') [42102-200]
+2019-12-11 19:38:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select user0_.id as id1_7_0_, user0_.age as age2_7_0_, user0_.email as email3_7_0_, user0_.name as name4_7_0_, user0_.role as role5_7_0_, user0_.surname as surname6_7_0_, authentica1_.id as id1_0_1_, authentica1_.login as login2_0_1_, authentica1_.password as password3_0_1_, authentica1_.profileEnabled as profileE4_0_1_ from users user0_ left outer join Authenticate authentica1_ on user0_.id=authentica1_.id where user0_.id=? [42102-200]
