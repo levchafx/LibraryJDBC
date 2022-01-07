@@ -13,7 +13,7 @@
 		<jsp.version>2.3.3</jsp.version>
 		<commons.codec>1.13</commons.codec>
 		<jstl.version>1.2</jstl.version>
-		<h2.version>1.4.200</h2.version>
+		<h2.version>2.0.206</h2.version>
 		<c3p0.version>0.9.5.4</c3p0.version>
 		<mysql.version>8.0.18</mysql.version>
 		<commons.version>2.6</commons.version>
