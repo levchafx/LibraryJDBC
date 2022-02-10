@@ -21,7 +21,7 @@
 		<compiler.target>1.8</compiler.target>
 		<resources.plugin>2.6</resources.plugin>
 		<war.plugin>3.2.3</war.plugin>
-		<hibernate.version>5.2.17.Final</hibernate.version>
+		<hibernate.version>5.4.24.Final</hibernate.version>
 		<hikaricp.version>5.2.17.Final</hikaricp.version>
 	</properties>
 	<dependencies>
